@@ -1,0 +1,61 @@
+#keras-page {
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+
+  .action-wrapper {
+    width: 400px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .canvas-wrapper {
+      position: relative;
+      width: 280px;
+      height: 280px;
+      margin: 0 auto;
+
+      .mask {
+        width: 100%;
+        height: 100%;
+        line-height: 280px;
+        color: #fff;
+        font-size: 24px;
+        background: lightblue;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+
+      canvas {
+        background: white;
+        border: 1px solid #000;
+      }
+    }
+  }
+
+  .button-wrapper {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    button + button {
+      margin-left: 20px;
+    }
+
+    button {
+      cursor: pointer;
+      font-size: 16px;
+      color: black;
+      width: 100px;
+      height: 34px;
+    }
+  }
+}
