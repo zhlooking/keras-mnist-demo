@@ -1,6 +1,6 @@
 ## For Backend
 
-###recommended: use virtualenv/virtualenvwrapper
+### recommended: use virtualenv/virtualenvwrapper
 `cd backend`
 
 `brew install python3`
@@ -18,7 +18,7 @@
 `cp mnist_cnn.bin ../../dist/`
 
 
-###without virtualenv
+### without virtualenv
 `cd backend`
 
 `brew install python3.6`
