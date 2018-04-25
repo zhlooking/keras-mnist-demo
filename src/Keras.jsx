@@ -14,7 +14,7 @@ export default class Keras extends React.Component {
     };
 
     this.model = new KerasJS.Model({
-      filepath: '2_mnist_cnn.bin',
+      filepath: 'mnist_cnn.bin',
       gpu: true,
       transferLayerOutputs: true,
     });
