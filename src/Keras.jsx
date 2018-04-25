@@ -1,4 +1,3 @@
-/* eslint-disable new-cap */
 import React from 'react';
 import KerasJS from 'keras-js';
 import { getCoordinates, reduceData } from './utils';
@@ -61,7 +60,7 @@ export default class Keras extends React.Component {
 
   drawLine(x, y) {
     const ctx = this.canvasRef.getContext('2d');
-    ctx.lineWidth = 10;
+    ctx.lineWidth = 20;
     ctx.lineJoin = 'round';
     ctx.lineCap = 'round';
     ctx.strokeStyle = '#393E46';
