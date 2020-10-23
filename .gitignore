@@ -4,3 +4,4 @@ node_modules/
 output/
 __pycache__
 yarn-error.log
+.DS_Store

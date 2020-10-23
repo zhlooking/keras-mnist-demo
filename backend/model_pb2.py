@@ -172,14 +172,14 @@ Weights = _reflection.GeneratedProtocolMessageType('Weights', (_message.Message,
   DESCRIPTOR = _WEIGHTS,
   __module__ = 'model_pb2'
   # @@protoc_insertion_point(class_scope:Weights)
-  ))
+))
 _sym_db.RegisterMessage(Weights)
 
 Model = _reflection.GeneratedProtocolMessageType('Model', (_message.Message,), dict(
   DESCRIPTOR = _MODEL,
   __module__ = 'model_pb2'
   # @@protoc_insertion_point(class_scope:Model)
-  ))
+))
 _sym_db.RegisterMessage(Model)
 
 
